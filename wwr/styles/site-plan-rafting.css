@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+ --primary-color: #xxxxxx;
+ --secondary-color: #xxxxxx;
+ --accent1-color: #xxxxxx;
+ --accent2-color: #xxxxxx;
+
+ --heading-font: 'font-family', serif;
+ --paragraph-font: 'font-family' , serif;
+
+ --nav-background-color: #xxxxxx;
+ --nav-link-color: #xxxxxx;
+ --nav-hover-link-color: #xxxxxx
+ --nav-hover-background-color: #xxxxxx;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px ;
+    padding: 20px;
+}
