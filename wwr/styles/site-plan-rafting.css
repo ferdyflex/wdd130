@@ -18,9 +18,9 @@
     text-decoration: none;
     padding: 1rem;
  } 
- nav a : link, nav a : visited {
+--nav : link>, nav a : visited 
     color: var(--nav-link-color);
- } 
+  
  --nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
@@ -39,4 +39,5 @@ header {
 
 p {
     padding: 25px;
+}
 }
